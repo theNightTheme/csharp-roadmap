@@ -1,0 +1,16 @@
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\SimpleCalc\SimpleCalc\bin\Debug\net10.0\SimpleCalc.exe
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\SimpleCalc\SimpleCalc\bin\Debug\net10.0\SimpleCalc.deps.json
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\SimpleCalc\SimpleCalc\bin\Debug\net10.0\SimpleCalc.runtimeconfig.json
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\SimpleCalc\SimpleCalc\bin\Debug\net10.0\SimpleCalc.dll
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\SimpleCalc\SimpleCalc\bin\Debug\net10.0\SimpleCalc.pdb
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\SimpleCalc\SimpleCalc\obj\Debug\net10.0\SimpleCalc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\SimpleCalc\SimpleCalc\obj\Debug\net10.0\SimpleCalc.AssemblyInfoInputs.cache
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\SimpleCalc\SimpleCalc\obj\Debug\net10.0\SimpleCalc.AssemblyInfo.cs
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\SimpleCalc\SimpleCalc\obj\Debug\net10.0\SimpleCalc.csproj.CoreCompileInputs.cache
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\SimpleCalc\SimpleCalc\obj\Debug\net10.0\SimpleCalc.sourcelink.json
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\SimpleCalc\SimpleCalc\obj\Debug\net10.0\SimpleCalc.dll
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\SimpleCalc\SimpleCalc\obj\Debug\net10.0\refint\SimpleCalc.dll
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\SimpleCalc\SimpleCalc\obj\Debug\net10.0\SimpleCalc.pdb
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\SimpleCalc\SimpleCalc\obj\Debug\net10.0\SimpleCalc.genruntimeconfig.cache
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\SimpleCalc\SimpleCalc\obj\Debug\net10.0\ref\SimpleCalc.dll
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\SimpleCalc\SimpleCalc\obj\Debug\net10.0\SimpleCalc.csproj.Up2Date

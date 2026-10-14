@@ -1,0 +1,24 @@
+﻿using System.Runtime.CompilerServices;
+
+void Main()
+{
+    Console.WriteLine("Введите первое число:");
+    int firstNumber = int.Parse(Console.ReadLine());
+    Console.WriteLine("Введите операцию (+, -, *, /):");
+    string operation = Console.ReadLine();
+    Console.WriteLine("Введите второе число:");
+    int secondNumber = int.Parse(Console.ReadLine());
+
+    Console.WriteLine("Результат: " + Calculate(firstNumber, operation, secondNumber));
+}
+
+static int Calculate(int firstNumber, string operation, int secondNumber)
+{
+    switch (operation)
+    {
+        case "+": return firstNumber + secondNumber;
+        case "-": return firstNumber - secondNumber;
+        case "*": return firstNumber * secondNumber;
+        case "/": return firstNumber / secondNumber;
+    }
+}
