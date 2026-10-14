@@ -1,0 +1,16 @@
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\GuessTheInt\GuessTheInt\bin\Debug\net10.0\GuessTheInt.exe
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\GuessTheInt\GuessTheInt\bin\Debug\net10.0\GuessTheInt.deps.json
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\GuessTheInt\GuessTheInt\bin\Debug\net10.0\GuessTheInt.runtimeconfig.json
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\GuessTheInt\GuessTheInt\bin\Debug\net10.0\GuessTheInt.dll
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\GuessTheInt\GuessTheInt\bin\Debug\net10.0\GuessTheInt.pdb
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\GuessTheInt\GuessTheInt\obj\Debug\net10.0\GuessTheInt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\GuessTheInt\GuessTheInt\obj\Debug\net10.0\GuessTheInt.AssemblyInfoInputs.cache
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\GuessTheInt\GuessTheInt\obj\Debug\net10.0\GuessTheInt.AssemblyInfo.cs
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\GuessTheInt\GuessTheInt\obj\Debug\net10.0\GuessTheInt.csproj.CoreCompileInputs.cache
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\GuessTheInt\GuessTheInt\obj\Debug\net10.0\GuessTheInt.sourcelink.json
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\GuessTheInt\GuessTheInt\obj\Debug\net10.0\GuessTheInt.dll
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\GuessTheInt\GuessTheInt\obj\Debug\net10.0\refint\GuessTheInt.dll
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\GuessTheInt\GuessTheInt\obj\Debug\net10.0\GuessTheInt.pdb
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\GuessTheInt\GuessTheInt\obj\Debug\net10.0\GuessTheInt.genruntimeconfig.cache
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\GuessTheInt\GuessTheInt\obj\Debug\net10.0\ref\GuessTheInt.dll
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\GuessTheInt\GuessTheInt\obj\Debug\net10.0\GuessThe.596233BD.Up2Date
