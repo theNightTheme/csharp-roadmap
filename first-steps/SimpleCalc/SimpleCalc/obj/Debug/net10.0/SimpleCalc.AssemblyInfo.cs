@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SimpleCalc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+844ad1c7b93f7e79a9c5ff219699f20f676cc8c1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b092a5644495ec996ab6572ce690f4176da99c66")]
 [assembly: System.Reflection.AssemblyProductAttribute("SimpleCalc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SimpleCalc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
