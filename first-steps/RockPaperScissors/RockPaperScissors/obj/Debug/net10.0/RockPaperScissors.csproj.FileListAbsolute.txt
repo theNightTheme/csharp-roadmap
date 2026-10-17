@@ -1,0 +1,16 @@
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\RockPaperScissors\RockPaperScissors\obj\Debug\net10.0\RockPaperScissors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\RockPaperScissors\RockPaperScissors\obj\Debug\net10.0\RockPaperScissors.AssemblyInfoInputs.cache
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\RockPaperScissors\RockPaperScissors\obj\Debug\net10.0\RockPaperScissors.AssemblyInfo.cs
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\RockPaperScissors\RockPaperScissors\obj\Debug\net10.0\RockPaperScissors.csproj.CoreCompileInputs.cache
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\RockPaperScissors\RockPaperScissors\obj\Debug\net10.0\RockPaperScissors.sourcelink.json
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\RockPaperScissors\RockPaperScissors\bin\Debug\net10.0\RockPaperScissors.exe
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\RockPaperScissors\RockPaperScissors\bin\Debug\net10.0\RockPaperScissors.deps.json
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\RockPaperScissors\RockPaperScissors\bin\Debug\net10.0\RockPaperScissors.runtimeconfig.json
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\RockPaperScissors\RockPaperScissors\bin\Debug\net10.0\RockPaperScissors.dll
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\RockPaperScissors\RockPaperScissors\bin\Debug\net10.0\RockPaperScissors.pdb
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\RockPaperScissors\RockPaperScissors\obj\Debug\net10.0\RockPaperScissors.dll
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\RockPaperScissors\RockPaperScissors\obj\Debug\net10.0\refint\RockPaperScissors.dll
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\RockPaperScissors\RockPaperScissors\obj\Debug\net10.0\RockPaperScissors.pdb
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\RockPaperScissors\RockPaperScissors\obj\Debug\net10.0\RockPaperScissors.genruntimeconfig.cache
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\RockPaperScissors\RockPaperScissors\obj\Debug\net10.0\ref\RockPaperScissors.dll
+C:\Users\StarO\OneDrive\Desktop\csharp-roadmap\first-steps\RockPaperScissors\RockPaperScissors\obj\Debug\net10.0\RockPape.65892C9A.Up2Date

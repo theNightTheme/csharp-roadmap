@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\StarO\\OneDrive\\Desktop\\csharp-roadmap\\first-steps\\GuessTheInt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E555C7B-A36B-45D9-88DA-44E606273987}|GuessTheInt\\GuessTheInt.csproj|c:\\users\\staro\\onedrive\\desktop\\csharp-roadmap\\first-steps\\guesstheint\\guesstheint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E555C7B-A36B-45D9-88DA-44E606273987}|GuessTheInt\\GuessTheInt.csproj|solutionrelative:guesstheint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCA06C67-9D97-B337-9A7A-C6551C312139}|GuessTheInt\\GuessTheInt.csproj|c:\\users\\staro\\onedrive\\desktop\\csharp-roadmap\\first-steps\\guesstheint\\guesstheint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA06C67-9D97-B337-9A7A-C6551C312139}|GuessTheInt\\GuessTheInt.csproj|solutionrelative:guesstheint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,7 +24,7 @@
               "RelativeDocumentMoniker": "GuessTheInt\\Program.cs",
               "ToolTip": "C:\\Users\\StarO\\OneDrive\\Desktop\\csharp-roadmap\\first-steps\\GuessTheInt\\GuessTheInt\\Program.cs",
               "RelativeToolTip": "GuessTheInt\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-14T09:33:30.383Z",
               "EditorCaption": ""
