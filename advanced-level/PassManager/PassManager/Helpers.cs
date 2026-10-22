@@ -17,7 +17,7 @@ namespace PassManager
             return !input.Contains(" ");
         }
 
-        public static string[] ReadFile(string filePath)
+        public static string[] ReadAndSplitFile(string filePath)
         {
             return File.ReadAllLines(filePath).SelectMany(x => x.Split("|")).ToArray();
         }

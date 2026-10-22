@@ -6,3 +6,5 @@ R|gf|gfgfg
 Fdfd|fdfdfd|fdfdfdf
 R|gh|hghg
 Opp|opp|opp
+Steam|user|stee
+Steam|dr|pass

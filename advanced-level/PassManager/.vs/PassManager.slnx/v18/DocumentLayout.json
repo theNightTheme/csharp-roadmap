@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\StarO\\OneDrive\\Desktop\\csharp-roadmap\\advanced-level\\PassManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{872B221B-B473-74D8-3516-54C2C1281336}|PassManager\\PassManager.csproj|c:\\users\\staro\\onedrive\\desktop\\csharp-roadmap\\advanced-level\\passmanager\\passmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{872B221B-B473-74D8-3516-54C2C1281336}|PassManager\\PassManager.csproj|solutionrelative:passmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{872B221B-B473-74D8-3516-54C2C1281336}|PassManager\\PassManager.csproj|c:\\users\\staro\\onedrive\\desktop\\csharp-roadmap\\advanced-level\\passmanager\\passmanager\\menusections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{872B221B-B473-74D8-3516-54C2C1281336}|PassManager\\PassManager.csproj|solutionrelative:passmanager\\menusections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{872B221B-B473-74D8-3516-54C2C1281336}|PassManager\\PassManager.csproj|c:\\users\\staro\\onedrive\\desktop\\csharp-roadmap\\advanced-level\\passmanager\\passmanager\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{872B221B-B473-74D8-3516-54C2C1281336}|PassManager\\PassManager.csproj|solutionrelative:passmanager\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{872B221B-B473-74D8-3516-54C2C1281336}|PassManager\\PassManager.csproj|c:\\users\\staro\\onedrive\\desktop\\csharp-roadmap\\advanced-level\\passmanager\\passmanager\\menusections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{872B221B-B473-74D8-3516-54C2C1281336}|PassManager\\PassManager.csproj|solutionrelative:passmanager\\menusections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{872B221B-B473-74D8-3516-54C2C1281336}|PassManager\\PassManager.csproj|c:\\users\\staro\\onedrive\\desktop\\csharp-roadmap\\advanced-level\\passmanager\\passmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{872B221B-B473-74D8-3516-54C2C1281336}|PassManager\\PassManager.csproj|solutionrelative:passmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\StarO\\OneDrive\\Desktop\\csharp-roadmap\\advanced-level\\PassManager\\PassManager\\Program.cs",
               "RelativeDocumentMoniker": "PassManager\\Program.cs",
               "ToolTip": "C:\\Users\\StarO\\OneDrive\\Desktop\\csharp-roadmap\\advanced-level\\PassManager\\PassManager\\Program.cs",
               "RelativeToolTip": "PassManager\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAB1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAChAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-20T09:46:58.391Z",
               "IsPinned": true,
@@ -40,13 +40,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MenuSections.cs",
               "DocumentMoniker": "C:\\Users\\StarO\\OneDrive\\Desktop\\csharp-roadmap\\advanced-level\\PassManager\\PassManager\\MenuSections.cs",
               "RelativeDocumentMoniker": "PassManager\\MenuSections.cs",
               "ToolTip": "C:\\Users\\StarO\\OneDrive\\Desktop\\csharp-roadmap\\advanced-level\\PassManager\\PassManager\\MenuSections.cs",
               "RelativeToolTip": "PassManager\\MenuSections.cs",
-              "ViewState": "AgIAALMAAAAAAAAAAAAgwIcAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-20T09:46:59.557Z",
               "IsPinned": true,
@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "PassManager\\Helpers.cs",
               "ToolTip": "C:\\Users\\StarO\\OneDrive\\Desktop\\csharp-roadmap\\advanced-level\\PassManager\\PassManager\\Helpers.cs",
               "RelativeToolTip": "PassManager\\Helpers.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAqwCkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-20T09:47:00.263Z",
               "IsPinned": true,
