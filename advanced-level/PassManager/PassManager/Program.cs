@@ -17,7 +17,7 @@ if (!File.Exists("data/master.txt"))
 // Главное меню менеджера паролей.
 while (true)
 {
-    Console.WriteLine("Менеджер паролей\n\n1. Добавить.\n2. Просмотреть все логины.\n3. Просмотреть пароль для конкретного логина.\n4. Изменить пароль для логина.");
+    Console.WriteLine("Менеджер паролей\n\n1. Добавить.\n2. Просмотреть все логины.\n3. Просмотреть пароль для конкретного логина.\n4. Изменить пароль для логина.\n5. Удалить учетную запись.");
     string input = Console.ReadLine();
 
     switch (input)
@@ -26,6 +26,7 @@ while (true)
         case "2": Console.Clear(); MenuSections.ViewApps(); break;
         case "3": Console.Clear(); MenuSections.ViewPassword(); break;
         case "4": Console.Clear(); MenuSections.EditPassword(); break;
+        case "5": Console.Clear(); MenuSections.DeleteAccount(); break;
         default: Console.Clear(); Console.WriteLine("Ошибка при навигации в меню. Попробуйте снова:"); continue;
     }
 }
