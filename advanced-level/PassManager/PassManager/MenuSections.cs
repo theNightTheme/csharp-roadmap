@@ -14,7 +14,7 @@ namespace PassManager
 
             // Обрабатываем название приложения. Удаляем пробелы в начале и конце, проверяем валидность и делаем первую букву заглавной.
             Console.WriteLine("Введите название приложения:");
-            app = Console.ReadLine().Trim();
+            app = Helpers.ReadInputOrException().Trim();
             if (Helpers.IsValid(app))
             {
                 app = char.ToUpper(app[0]) + app.Substring(1);
@@ -22,7 +22,7 @@ namespace PassManager
             while (!Helpers.IsValid(app))
             {
                 Console.WriteLine("Название приложения не может быть пустым или содержать вертикальную черту.\nВведите название приложения снова:");
-                app = Console.ReadLine().Trim();
+                app = Helpers.ReadInputOrException().Trim();
                 if (Helpers.IsValid(app))
                 {
                     app = char.ToUpper(app[0]) + app.Substring(1);
@@ -31,7 +31,7 @@ namespace PassManager
 
             // Обрабатываем имя пользователя. Удаляем пробелы в начале и конце, проверяем валидность и делаем все буквы строчными.
             Console.WriteLine("Введите имя пользователя:");
-            username = Console.ReadLine().Trim();
+            username = Helpers.ReadInputOrException().Trim();
             if (Helpers.IsValid(username) && Helpers.HasNoSpaces(username))
             {
                 username = username.ToLower();
@@ -46,7 +46,7 @@ namespace PassManager
                     if (fileData[i] == app && fileData[i + 1] == username)
                     {
                         Console.WriteLine($"Пользователь {username} уже существует для приложения {app}.\nВведите имя пользователя снова:");
-                        username = Console.ReadLine().Trim();
+                        username = Helpers.ReadInputOrException().Trim();
                         if (Helpers.IsValid(username) && Helpers.HasNoSpaces(username))
                         {
                             username = username.ToLower();
@@ -65,7 +65,7 @@ namespace PassManager
                 if (!Helpers.IsValid(username) || !Helpers.HasNoSpaces(username))
                 {
                     Console.WriteLine("Имя пользователя не может быть пустым, содержать вертикальную черту или пробелы.\nВведите имя пользователя снова:");
-                    username = Console.ReadLine().Trim();
+                    username = Helpers.ReadInputOrException().Trim();
                     if (Helpers.IsValid(username) && Helpers.HasNoSpaces(username))
                     {
                         username = username.ToLower();
@@ -77,11 +77,11 @@ namespace PassManager
 
             // Обрабатываем пароль для пользователя. Проверяем валидность и наличие пробелов внутри.
             Console.WriteLine($"Введите пароль для пользователя {username}:");
-            password = Console.ReadLine();
+            password = Helpers.ReadInputOrException();
             while (!Helpers.IsValid(password) || !Helpers.HasNoSpaces(password))
             {
                 Console.WriteLine($"Пароль не может быть пустым, содержать вертикальную черту или пробелы.\nВведите пароль для пользователя {username} снова:");
-                password = Console.ReadLine();
+                password = Helpers.ReadInputOrException();
             }
 
             toAppend = app + "|" + username + "|" + password;
@@ -138,7 +138,7 @@ namespace PassManager
             Helpers.CheckMasterKey();
 
             Console.WriteLine("Мастер-ключ подтвержден. Введите название приложения:");
-            readApp = Console.ReadLine().Trim();
+            readApp = Helpers.ReadInputOrException().Trim();
             if (Helpers.IsValid(readApp))
             {
                 readApp = char.ToUpper(readApp[0]) + readApp.Substring(1);
@@ -149,7 +149,7 @@ namespace PassManager
                 if (!Helpers.IsValid(readApp))
                 {
                     Console.WriteLine("Название приложения не может быть пустым или содержать вертикальную черту.\nВведите название приложения снова: ");
-                    readApp = Console.ReadLine().Trim();
+                    readApp = Helpers.ReadInputOrException().Trim();
                     if (Helpers.IsValid(readApp))
                     {
                         readApp = char.ToUpper(readApp[0]) + readApp.Substring(1);
@@ -158,7 +158,7 @@ namespace PassManager
                 else
                 {
                     Console.WriteLine("Такого приложения нет в менеджере. Попробуйте ввести название приложения снова:");
-                    readApp = Console.ReadLine().Trim();
+                    readApp = Helpers.ReadInputOrException().Trim();
                     if (Helpers.IsValid(readApp))
                     {
                         readApp = char.ToUpper(readApp[0]) + readApp.Substring(1);
@@ -167,7 +167,7 @@ namespace PassManager
             }
 
             Console.WriteLine("Введите имя пользователя:");
-            username = Console.ReadLine().Trim();
+            username = Helpers.ReadInputOrException().Trim();
             if (Helpers.IsValid(username) && Helpers.HasNoSpaces(username))
             {
                 username = username.ToLower();
@@ -179,7 +179,7 @@ namespace PassManager
                 if (!Helpers.IsValid(username) || !Helpers.HasNoSpaces(username))
                 {
                     Console.WriteLine("Имя пользователя не может быть пустым, содержать вертикальную черту или пробелы.\nВведите имя пользователя снова:");
-                    username = Console.ReadLine().Trim();
+                    username = Helpers.ReadInputOrException().Trim();
                     if (Helpers.IsValid(username) && Helpers.HasNoSpaces(username))
                     {
                         username = username.ToLower();
@@ -207,7 +207,7 @@ namespace PassManager
                 if (!found)
                 {
                     Console.WriteLine($"Пользователь {username} не найден в приложении {readApp}. Попробуйте ввести имя пользователя снова:");
-                    username = Console.ReadLine().Trim();
+                    username = Helpers.ReadInputOrException().Trim();
                     if (Helpers.IsValid(username) && Helpers.HasNoSpaces(username))
                     {
                         username = username.ToLower();
@@ -229,11 +229,14 @@ namespace PassManager
         public static void EditPassword()
         {
             string readApp, username, newPassword = "", confirmNewPassword = "";
+
             string[] fileData = Helpers.ReadAndSplitFile("data/info.txt");
             string[] apps = Helpers.GetApps(fileData);
+
             Helpers.CheckMasterKey();
             Console.WriteLine("Мастер-ключ подтвержден. Введите название приложения:");
-            readApp = Console.ReadLine().Trim();
+            readApp = Helpers.ReadInputOrException().Trim();
+
             if (Helpers.IsValid(readApp))
             {
                 readApp = char.ToUpper(readApp[0]) + readApp.Substring(1);
@@ -243,7 +246,7 @@ namespace PassManager
                 if (!Helpers.IsValid(readApp))
                 {
                     Console.WriteLine("Название приложения не может быть пустым или содержать вертикальную черту.\nВведите название приложения снова: ");
-                    readApp = Console.ReadLine().Trim();
+                    readApp = Helpers.ReadInputOrException().Trim();
                     if (Helpers.IsValid(readApp))
                     {
                         readApp = char.ToUpper(readApp[0]) + readApp.Substring(1);
@@ -252,7 +255,7 @@ namespace PassManager
                 else
                 {
                     Console.WriteLine("Такого приложения нет в менеджере. Попробуйте ввести название приложения снова:");
-                    readApp = Console.ReadLine().Trim();
+                    readApp = Helpers.ReadInputOrException().Trim();
                     if (Helpers.IsValid(readApp))
                     {
                         readApp = char.ToUpper(readApp[0]) + readApp.Substring(1);
@@ -261,7 +264,7 @@ namespace PassManager
             }
 
             Console.WriteLine("Введите имя пользователя:");
-            username = Console.ReadLine().Trim();
+            username = Helpers.ReadInputOrException().Trim();
             if (Helpers.IsValid(username) && Helpers.HasNoSpaces(username))
             {
                 username = username.ToLower();
@@ -273,7 +276,7 @@ namespace PassManager
                 if (!Helpers.IsValid(username) || !Helpers.HasNoSpaces(username))
                 {
                     Console.WriteLine("Имя пользователя не может быть пустым, содержать вертикальную черту или пробелы.\nВведите имя пользователя снова:");
-                    username = Console.ReadLine().Trim();
+                    username = Helpers.ReadInputOrException().Trim();
                     if (Helpers.IsValid(username) && Helpers.HasNoSpaces(username))
                     {
                         username = username.ToLower();
@@ -299,7 +302,7 @@ namespace PassManager
                 if (!found)
                 {
                     Console.WriteLine($"Пользователь {username} не найден в приложении {readApp}. Попробуйте ввести имя пользователя снова:");
-                    username = Console.ReadLine().Trim();
+                    username = Helpers.ReadInputOrException().Trim();
                     if (Helpers.IsValid(username) && Helpers.HasNoSpaces(username))
                     {
                         username = username.ToLower();
@@ -313,7 +316,7 @@ namespace PassManager
             while (true)
             {
                 Console.WriteLine($"Введите новый пароль для пользователя {username}:");
-                newPassword = Console.ReadLine();
+                newPassword = Helpers.ReadInputOrException();
 
                 if (!Helpers.IsValid(newPassword) || !Helpers.HasNoSpaces(newPassword))
                 {
@@ -322,7 +325,7 @@ namespace PassManager
                 }
 
                 Console.WriteLine($"Подтвердите новый пароль для пользователя {username}:");
-                confirmNewPassword = Console.ReadLine();
+                confirmNewPassword = Helpers.ReadInputOrException();
 
                 if (newPassword != confirmNewPassword)
                 {
@@ -368,7 +371,7 @@ namespace PassManager
 
             Helpers.CheckMasterKey();
             Console.WriteLine("Мастер-ключ подтвержден. Введите название приложения:");
-            readApp = Console.ReadLine().Trim();
+            readApp = Helpers.ReadInputOrException().Trim();
 
             if (Helpers.IsValid(readApp))
             {
@@ -380,7 +383,7 @@ namespace PassManager
                 if (!Helpers.IsValid(readApp))
                 {
                     Console.WriteLine("Название приложения не может быть пустым или содержать вертикальную черту.\nВведите название приложения снова: ");
-                    readApp = Console.ReadLine().Trim();
+                    readApp = Helpers.ReadInputOrException().Trim();
                     if (Helpers.IsValid(readApp))
                     {
                         readApp = char.ToUpper(readApp[0]) + readApp.Substring(1);
@@ -389,7 +392,7 @@ namespace PassManager
                 else
                 {
                     Console.WriteLine("Такого приложения нет в менеджере. Попробуйте ввести название приложения снова:");
-                    readApp = Console.ReadLine().Trim();
+                    readApp = Helpers.ReadInputOrException().Trim();
                     if (Helpers.IsValid(readApp))
                     {
                         readApp = char.ToUpper(readApp[0]) + readApp.Substring(1);
@@ -398,7 +401,7 @@ namespace PassManager
             }
 
             Console.WriteLine("Введите имя пользователя:");
-            username = Console.ReadLine().Trim();
+            username = Helpers.ReadInputOrException().Trim();
             if (Helpers.IsValid(username) && Helpers.HasNoSpaces(username))
             {
                 username = username.ToLower();
@@ -410,7 +413,7 @@ namespace PassManager
                 if (!Helpers.IsValid(username) || !Helpers.HasNoSpaces(username))
                 {
                     Console.WriteLine("Имя пользователя не может быть пустым, содержать вертикальную черту или пробелы.\nВведите имя пользователя снова:");
-                    username = Console.ReadLine().Trim();
+                    username = Helpers.ReadInputOrException().Trim();
                     if (Helpers.IsValid(username) && Helpers.HasNoSpaces(username))
                     {
                         username = username.ToLower();
@@ -436,7 +439,7 @@ namespace PassManager
                 if (!found)
                 {
                     Console.WriteLine($"Пользователь {username} не найден в приложении {readApp}. Попробуйте ввести имя пользователя снова:");
-                    username = Console.ReadLine().Trim();
+                    username = Helpers.ReadInputOrException().Trim();
                     if (Helpers.IsValid(username) && Helpers.HasNoSpaces(username))
                     {
                         username = username.ToLower();
@@ -450,7 +453,7 @@ namespace PassManager
             
             while (true)
             {
-                enteredUsername = Console.ReadLine();
+                enteredUsername = Helpers.ReadInputOrException();
 
                 if (enteredUsername == $"{readApp}:{username}")
                 {

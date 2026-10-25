@@ -1,2 +1,3 @@
 Discord|user|password
 Steam|r|r
+Steam|dsds|dsds

@@ -33,12 +33,24 @@ namespace PassManager
             string actualMasterkey = File.ReadAllText("data/master.txt");
 
             Console.WriteLine("Для доступа к этому разделу введите мастер-ключ:");
-            masterkey = Console.ReadLine();
+            masterkey = Helpers.ReadInputOrException();
             while (masterkey != actualMasterkey)
             {
                 Console.WriteLine("Мастер-ключ неверный. Попробуйте снова:");
-                masterkey = Console.ReadLine();
+                masterkey = Helpers.ReadInputOrException();
             }
+        }
+
+        public static string ReadInputOrException()
+        {
+            string input = Console.ReadLine();
+
+            if (input.Equals("--exit", StringComparison.OrdinalIgnoreCase))
+            {
+                throw new ExitToMenuException();
+            }
+
+            return input;
         }
     }
 }
